@@ -5,7 +5,7 @@ set /p key=<key.txt
 
 rem Update all submodules
 echo Updating Submodules...
-git submodule update
+git submodule update --init
 
 rem Loop through submodules
 for /D %%d in (*) do call :pack %%d
