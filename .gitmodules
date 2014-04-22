@@ -1,0 +1,6 @@
+[submodule "localForage"]
+	path = localForage
+	url = https://github.com/mozilla/localForage.git
+[submodule "stacktable.js"]
+	path = stacktable.js
+	url = https://github.com/johnpolacek/stacktable.js

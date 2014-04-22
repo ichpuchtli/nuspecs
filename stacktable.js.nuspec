@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>stacktable.js</id>
+        <version>0.0.0</version>
+        <title>Stacktable.js</title>
+        <authors>John Polacek</authors>
+        <owners>John Polacek</owners>
+        <licenseUrl>http://opensource.org/licenses/GPL-3.0, http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>http://github.com/johnpolacek/stacktable.js</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The Responsive Tables jQuery plugin for stacking tables on small screens. The purpose of stacktable.js is to give you an easy way of converting wide tables to a format that will work better on small screens. It creates a copy of the table that is converted into a 2-column key/value format.</description>
+        <summary>Dual MIT / GPL License</summary>
+        <copyright>John Polacek</copyright>
+        <tags>javascript, responsive, table, responive table, stacktable, jquery</tags>
+    </metadata>
+    <files>
+        <file src="stacktable.js\stacktable.js" target="Content\Scripts\stacktable.js" />
+        <file src="stacktable.js\stacktable.css" target="Content\Content\stacktable.css" />
+    </files>
+</package>
