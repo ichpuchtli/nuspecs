@@ -15,7 +15,7 @@
         <tags>localStorage, IndexedDB, WebSQL, async</tags>
     </metadata>
     <files>
-        <file src="localForage\localforage.js" target="Content\Scripts\localforage\localforage.js" />
-        <file src="localForage\localforage.min.js" target="Content\Scripts\localforage\localforage.min.js" />
+        <file src="localForage\dist\localforage.js" target="Content\Scripts\localforage\localforage.js" />
+        <file src="localForage\dist\localforage.min.js" target="Content\Scripts\localforage\localforage.min.js" />
     </files>
 </package>

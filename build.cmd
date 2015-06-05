@@ -1,4 +1,3 @@
-@echo off
 
 rem Get nuget.org API Key
 set /p key=<key.txt
@@ -6,6 +5,7 @@ set /p key=<key.txt
 rem Update all submodules
 echo Updating Submodules...
 git submodule update --init
+git submodule foreach git fetch
 
 rem Loop through submodules
 for /D %%d in (*) do call :pack %%d
